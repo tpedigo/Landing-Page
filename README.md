@@ -1,0 +1,1 @@
+This is an example of a business landing page which will showcase the skills I have learned in HTML and CSS so far with The Odin Project.

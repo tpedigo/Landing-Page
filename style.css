@@ -135,8 +135,47 @@ li,
     text-align: end;
 }
 
-.footer {
-    
+.section.four {
+    display: flex;
+    justify-content: center;
+    padding: 100px 12px;
+}
+
+.call-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
     color: #E5E7EB;
-    font-size: 12px;
+    padding: 50px 150px;
+    border-radius: 8px;
+    gap: 30px;
+    flex: 0 0 auto;
+}
+
+.call-to-action {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.click-button {
+    font-size: 18px;
+}
+
+.lower-sign-up-button {
+    background-color: #3882F6;
+    border: solid #E5E7EB;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 24px;
+    border-radius: 8px;
+    max-height: 60px;
+    flex: 0 0 auto;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 35px;
 }

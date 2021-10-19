@@ -10,7 +10,7 @@ body {
     background-color: #1F2937;
     align-items: center;
     /* justify-content: space-between; */
-    gap: 50px;
+    /* gap: 50px; */
 }
 
 .header {
@@ -33,7 +33,9 @@ body {
 .section.one {
     display: flex;
     justify-content: space-around;
+    gap: 50px;
     padding: 20px 130px 60px;
+    flex-wrap: wrap;
 }
 
 .section.one .subsection {
@@ -76,12 +78,14 @@ li,
     gap: 40px;
     align-items: center;
     padding: 45px 12px 110px;
+    /* flex-wrap: wrap; */
 }
 
 .illustrations-info {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     gap: 48px;
+    flex-wrap: wrap;
 }
 
 .illustrations-info .subsection {
@@ -149,7 +153,8 @@ li,
     padding: 50px 150px;
     border-radius: 8px;
     gap: 30px;
-    flex: 0 0 auto;
+    /* flex: 0 0 auto; */
+    flex-wrap: wrap;
 }
 
 .call-to-action {
